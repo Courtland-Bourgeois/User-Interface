@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,16 +71,22 @@ h1, h2, h3, h4, h5 {
 	padding: 20px 0;
 }
 
+header {
+	position: fixed;
+	background-color: springgreen;
+}
+
 header nav {
 	display: inline-block;
 	width: 691px;
 	vertical-align: top;
 	margin-top: 10px;
+	z-index: 4;
 }
 
 header nav a {
 	margin-right: 65px;
-	font-size: 14px;
+	font-size: 13px;
 	color: gray;
 	text-decoration: none;
 }
